@@ -1,4 +1,4 @@
-import {divisionByTen} from "./divisionByTen";
+import {divisionByTen} from "../core/divisionByTen";
 /*
 0 -> 0
 1 -> 1
