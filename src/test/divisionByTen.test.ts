@@ -19,4 +19,7 @@ describe("divide by ten", () => {
     it("the simplest division", () => {
         expect(divisionByTen(1)).toBe(1)
     })
+    it("two-digit number", () => {
+        expect(divisionByTen(89)).toBe(2)
+    })
 })
