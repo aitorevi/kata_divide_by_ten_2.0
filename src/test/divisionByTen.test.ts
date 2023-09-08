@@ -1,12 +1,4 @@
-function divisionByTen(number: number) {
-    number = Math.abs(number)
-    if (number >= 1) {
-        const resultOfDivision: number = number / 10
-        return divisionByTen(resultOfDivision) + 1
-    }
-    return 0;
-}
-
+import {divisionByTen} from "./divisionByTen";
 /*
 0 -> 0
 1 -> 1
