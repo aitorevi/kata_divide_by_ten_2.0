@@ -1,7 +1,12 @@
-import { saidHello} from "../core/example";
-
-describe("Hello", () => {
-    it("world!", () => {
-        expect(saidHello("world")).toBe("Hello world!")
+/*
+0 -> 0
+1 -> 1
+89 -> 2
+0.32 -> 0
+-8376 -> 4
+*/
+describe("divide by ten", () => {
+    it("no need to split", () => {
+        expect(divisionByTen(0)).toBe(0)
     })
 })
