@@ -23,4 +23,7 @@ describe("divide by ten", () => {
     it("two-digit number", () => {
         expect(divisionByTen(89)).toBe(2)
     })
+    it("decimal number", () => {
+        expect(divisionByTen(32.45)).toBe(2)
+    })
 })
