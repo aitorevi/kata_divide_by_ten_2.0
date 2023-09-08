@@ -26,4 +26,7 @@ describe("divide by ten", () => {
     it("decimal number", () => {
         expect(divisionByTen(32.45)).toBe(2)
     })
+    it("negative number", () => {
+        expect(divisionByTen(-8376)).toBe(4)
+    })
 })
