@@ -1,6 +1,7 @@
 function divisionByTen(number: number) {
-    if (number === 1) {
-        return number
+    if (number >= 1) {
+        const resultOfDivision: number = number / 10
+        return divisionByTen(resultOfDivision) + 1
     }
     return 0;
 }
