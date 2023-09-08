@@ -10,7 +10,10 @@ function divisionByTen(number: number) {
 -8376 -> 4
 */
 describe("divide by ten", () => {
-    it("no need to split", () => {
+    it("not necessary to divide", () => {
         expect(divisionByTen(0)).toBe(0)
+    })
+    it("the simplest division", () => {
+        expect(divisionByTen(1)).toBe(1)
     })
 })
